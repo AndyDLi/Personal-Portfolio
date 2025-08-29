@@ -177,6 +177,16 @@ header ul a:hover {
     box-shadow: 0 0 25px #727fde86;
 }
 
+.hero-vid-box {
+    position: absolute;
+    right: 3%;
+}
+
+.hero-vid-box video {
+    height: 900px;
+    mix-blend-mode: difference;
+}
+
 /* @Media Rules */
 
 @media (max-aspect-ratio: 16/9) {
